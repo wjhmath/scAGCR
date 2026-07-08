@@ -9,3 +9,10 @@ paper_figures_final/
 *.ckpt
 .ipynb_checkpoints/
 scagcr_env/
+baselines/repos/
+baselines/scgpt_model/
+data/
+envs/
+log/
+paper_figures/
+*.pt
