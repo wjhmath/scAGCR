@@ -1,41 +1,11 @@
-# 环境 (绝不上传)
-scagcr_env/
-envs/
-conda_pkgs/
-# 数据与结果 (太大 / 可再生)
-data/
-results/
-paper_figures/
-generated_figures/
-log/
-_archive_scratch/
-# 大二进制 / 中间产物
-*.pt
-*.pth
-*.h5ad
-*.h5
-*.npz
-*.npy
-*.pdf
-*.png
-*.jpg
-*.svg
-# python 缓存
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-.DS_Store
-baselines/repos/
-baselines/repos/
+logs/
+results/
 paper_figures_final/
-generated_tables/
-baselines/scgpt_model/
-
-# 杂物 / 验证脚本(2026 整理)
-*.bak
-*.bak_*
-*.before_sweep
-*.sweep_bak
-verify*.py
-check_paper_numbers.py
-analysis/_verify_archive/
+*.log
+*.h5ad
+*.pth
+*.ckpt
+.ipynb_checkpoints/
+scagcr_env/

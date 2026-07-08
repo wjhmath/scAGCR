@@ -15,7 +15,8 @@ def linear(x,a,b): return a*x+b
 SHORT={"muraro_pancreas":"Muraro","GSE123516_labeled":"Intestine","GSE150580_Mammary":"Mammary",
     "GSE159115_ccRCC":"Kidney ccRCC","GSE194122_PBMC_Bench_1":"BMMC-B1",
     "GSE194122_PBMC_Test":"BMMC-test","10X_PBMC":"10X PBMC","GSE103354":"Airway",
-    "GSE103322":"Puram","GSE119531":"UUO kidney","68kPBMC":"68k PBMC"}
+    "GSE103322":"Puram","GSE119531":"UUO kidney","68kPBMC":"68k PBMC",
+    "baron":"Baron","multiome":"Multiome"}
 
 apply_nature_style()
 plt.rcParams.update({"font.family":"sans-serif","font.sans-serif":["Arial","Helvetica","DejaVu Sans"],

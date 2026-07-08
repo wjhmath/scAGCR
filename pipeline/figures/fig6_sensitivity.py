@@ -23,7 +23,7 @@ def collect(tag):
     return {k:np.array(v) for k,v in data.items()}
 
 PANELS=[("tau",[0.2,0.4,0.6,0.8,1.0],0.8,r"$\tau$"),
-        ("lambda_cl",[0.1,0.3,0.5,0.7,0.9],0.7,r"$\lambda_{cl}$"),
+        ("lambda_cl",[0.1,0.3,0.5,0.7,0.9],0.7,r"$\lambda_{\mathrm{contr}}$"),
         ("dropout",[0.0,0.1,0.2,0.3,0.5],0.3,"Dropout")]
 METRICS=["ARI","NMI","CA"]; MLABEL={"ARI":"ARI","NMI":"NMI","CA":"ACC"}
 MCOL={"ARI":COOL,"NMI":NEUTRAL,"CA":WARM}
